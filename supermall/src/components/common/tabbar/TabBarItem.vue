@@ -42,7 +42,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .tarbaritem {
   height: 49px;
   flex: 1;
@@ -53,7 +53,7 @@ export default {
 .tarbaritem img {
   width: 24px;
   height: 24px;
-  vertical-align: top;
+  vertical-align: middle;
   margin-bottom: 2px;
 }
 .active {
