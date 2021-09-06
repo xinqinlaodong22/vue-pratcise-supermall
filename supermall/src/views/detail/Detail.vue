@@ -183,7 +183,6 @@ export default {
       this.themetopY.push(this.$refs.comment.$el.offsetTop);
       this.themetopY.push(this.$refs.recommend.$el.offsetTop);
       this.themetopY.push(Number.MAX_VALUE);
-      console.log(this.themetopY);
     });
   },
 };
